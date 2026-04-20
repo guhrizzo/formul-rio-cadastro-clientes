@@ -1,0 +1,64 @@
+body{
+    background-color: darkgreen;
+}
+
+.direita{
+    text-align: center;
+}
+
+.direita h1{
+    color: darkgoldenrod;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 45px;
+}
+
+.direita h2{
+    color: aliceblue;
+    font-size: 40px;
+}
+
+.form-box {
+    background: #e2b80f;
+    padding: 30px;
+    border-radius: 20px;
+    width: 350px;
+    margin: 0 auto;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+}
+
+.form-box label {
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #000;
+}
+
+.form-box input {
+    width: 100%;
+    padding: 10px;
+    margin: 6px 0 15px;
+    border: none;
+    background: #f1f1f1;
+    border-radius: 3px;
+}
+
+.btn {
+    background-color: #e2b80f;
+    border: 5px solid #ffffff;
+    border-radius: 4px;
+    color: white;
+    padding: 14px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    margin: 20px auto;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    box-shadow:0 8px 16px 0 rgba(0,0,0,0.6);
+    }
+
+    .input focus{
+        outline: none;
+        border: 2px solid #e2b00f;
+    }
